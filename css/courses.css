@@ -1,0 +1,54 @@
+.courses {
+  padding: 4rem;
+  background: linear-gradient(225deg, #ffaf00, #bb02ff);
+}
+
+.card__list {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 420px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 30px;
+}
+
+.card__title {
+  height: 40%;
+  width: 100%;
+  background-color: #ffaf00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+}
+
+.card__title h2 {
+  font-size: 4.5rem;
+  color: #fff;
+}
+
+.card__content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card__content p {
+  margin-bottom: 2rem;
+}
+
+.card-2 .card__title {
+  background-color: var(--color-secondary);
+}
+
+.card-3 .card__title {
+  background-color: var(--color-tertiary);
+}
